@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/sujal/gin-backend-v1/models"
+	"gin-backend/models"
 )
 
 var (
