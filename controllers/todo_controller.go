@@ -4,13 +4,13 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/gin-gonic/gin"
 	"gin-backend/models"
+	"github.com/gin-gonic/gin"
 )
 
 var (
-	todos       = []models.Todo{}
-	nextTodoID  = 1
+	todos      = []models.Todo{}
+	nextTodoID = 1
 )
 
 func GetTodos(c *gin.Context) {

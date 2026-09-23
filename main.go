@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"gin-backend/controllers"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
